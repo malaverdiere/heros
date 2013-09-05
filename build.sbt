@@ -12,5 +12,5 @@ compileOrder in Compile := CompileOrder.Mixed
 
 unmanagedSourceDirectories in Compile := Seq(file("src"))
 
-libraryDependencies += "com.google.guava" % "guava" % "13.0.1"
+libraryDependencies += "com.google.guava" % "guava" % "14.0.1"
 
