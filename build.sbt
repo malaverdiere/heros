@@ -2,7 +2,7 @@ name := "heros"
 
 organization := "sable"
 
-version := "20130806"
+version := "20130905"
 
 scalaVersion := "2.10.2"
 
