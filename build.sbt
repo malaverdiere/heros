@@ -10,7 +10,7 @@ javacOptions ++= Seq("-source", "1.6")
 
 compileOrder in Compile := CompileOrder.Mixed
 
-unmanagedSourceDirectories in Compile := Seq(file("src"))
+unmanagedSourceDirectories in Compile := Seq(baseDirectory.value / "src")
 
 libraryDependencies += "com.google.guava" % "guava" % "14.0.1"
 
