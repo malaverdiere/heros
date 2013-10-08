@@ -6,6 +6,10 @@ version := "20130920"
 
 scalaVersion := "2.10.2"
 
+ideaExcludeFolders += ".idea"
+
+ideaExcludeFolders += ".idea_modules"
+
 javacOptions ++= Seq("-source", "1.6")
 
 compileOrder in Compile := CompileOrder.Mixed
