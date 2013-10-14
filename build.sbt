@@ -2,17 +2,13 @@ name := "heros"
 
 organization := "sable"
 
-version := "20130920"
-
-scalaVersion := "2.10.2"
+version := "20131010"
 
 ideaExcludeFolders += ".idea"
 
 ideaExcludeFolders += ".idea_modules"
 
 javacOptions ++= Seq("-source", "1.6")
-
-compileOrder in Compile := CompileOrder.Mixed
 
 unmanagedSourceDirectories in Compile := Seq(baseDirectory.value / "src")
 
