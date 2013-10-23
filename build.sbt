@@ -2,7 +2,7 @@ name := "heros"
 
 organization := "sable"
 
-version := "20131010"
+version := "20131022"
 
 ideaExcludeFolders += ".idea"
 
